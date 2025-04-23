@@ -1,0 +1,60 @@
+/* Styles spécifiques aux écrans de bureau */
+@media (min-width: 769px) {
+    .container {
+        margin-top: 2rem;
+    }
+
+    .file-icon {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    .upload-area {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .upload-area h3 {
+        font-size: 1.5rem;
+    }
+
+    .file-details {
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+
+    .compression-info {
+        font-size: 0.85rem;
+        margin-top: 0.75rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .toast {
+        max-width: 400px;
+    }
+
+    .btn-group-mobile {
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+
+    .btn-mobile {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .file-card .card-body {
+        padding: 1.5rem;
+    }
+
+    .file-info {
+        margin-right: 1rem;
+    }
+} 

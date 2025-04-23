@@ -1,0 +1,80 @@
+/* Styles spécifiques aux appareils mobiles */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .file-icon {
+        font-size: 1.25rem;
+        margin-right: 0.5rem;
+    }
+
+    .upload-area {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .upload-area h3 {
+        font-size: 1.25rem;
+    }
+
+    .file-details {
+        font-size: 0.75rem;
+        margin-top: 0.25rem;
+    }
+
+    .compression-info {
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .toast {
+        max-width: 90%;
+    }
+
+    .btn-group-mobile {
+        flex-direction: column;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .btn-mobile {
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .file-card .card-body {
+        padding: 1rem;
+    }
+
+    .d-flex.justify-content-between {
+        flex-direction: column;
+    }
+}
+
+/* Styles pour les très petits écrans */
+@media (max-width: 576px) {
+    .container {
+        margin-top: 0.5rem;
+    }
+
+    .file-details {
+        font-size: 0.7rem;
+    }
+
+    .compression-info {
+        font-size: 0.65rem;
+    }
+
+    .btn-mobile {
+        font-size: 0.85rem;
+    }
+} 
